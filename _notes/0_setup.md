@@ -9,3 +9,8 @@
 
     ng version
 ```
+
+## Create Angular project
+```
+    ng new FullStack.UI
+```
