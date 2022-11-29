@@ -81,4 +81,19 @@ Create component
 Add route in app-routing.module.ts and Nav
 
 
+copy form code from https://getbootstrap.com/docs/5.0/forms/form-control/
 
+Use ngFrom
+```
+ <form #form="ngForm">
+```
+
+app.module.ts
+```
+imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+  ],
+```
