@@ -26,3 +26,20 @@ past the links of bootstrap 5 css and js to index.html
 
 ## Nav
 past code from  https://getbootstrap.com/docs/5.0/components/navbar/ into app.component.html
+
+
+## Routing
+Modify app-routing.module.ts
+```
+const routes: Routes = [
+  {
+    path: '',
+    component: EmployeeListComponent
+  }
+];
+```
+Modify code in Nav
+
+
+## Models
+employee.model.ts
