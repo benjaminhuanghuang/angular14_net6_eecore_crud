@@ -26,7 +26,7 @@ export class AddEmployeeComponent implements OnInit {
     this.addEmployeeRequest.id = 'B310F28A-69C2-443C-9C75-D4FF9066DFD0'
     this.employeeService.addEmployee(this.addEmployeeRequest).subscribe({
       next: (employee) => {
-        this.router.navigate(['/employees']);
+        this.router.navigate(['employees']);
       },
       error: (err) => {
 
