@@ -42,8 +42,15 @@ export class EditEmployeeComponent implements OnInit {
     this.employeeService.updateEmployee(this.employeeDetail.id, this.employeeDetail).subscribe({
       next: (response) => {
         this.router.navigate(['employees'])
-    }
-  });
-}
+      }
+    });
+  }
 
+  deleteEmployee(id: string) {
+    this.employeeService.deleteEmployee(this.employeeDetail.id).subscribe({
+      next: (response) => {
+        this.router.navigate(['employees'])
+      }
+    });
+  }
 }
