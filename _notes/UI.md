@@ -43,3 +43,42 @@ Modify code in Nav
 
 ## Models
 employee.model.ts
+
+
+## Fetch data
+Create service
+```
+  ng g s employees
+```
+
+Tell vs code where to find the type for http module
+```
+# tsconfig.json
+
+"typeRoots": [
+    "node_modules/@types",
+    "node_modules/@angular/",
+    "node_modules/@angular/common/http"
+  ]
+```
+
+config API url
+```
+# src/environments/environment.ts 
+
+export const environment = {
+  baseApiUrl: 'https://localhost:7054'
+};
+```
+
+
+## Add
+Create component
+```
+  ng g c add-employees
+```
+
+Add route in app-routing.module.ts and Nav
+
+
+
