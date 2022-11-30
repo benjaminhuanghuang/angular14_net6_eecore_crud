@@ -21,7 +21,7 @@ Microsoft.EntityFrameworkCore.Tools
 Data/FullStackDbContext
 
 
-## Injection
+## Use DbContext and connection string in Program.cs
 ```
     # Program.cs
     builder.Services.AddDbContext<FullStackDbContext>(options =>
