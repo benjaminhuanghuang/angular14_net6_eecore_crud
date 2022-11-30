@@ -4,7 +4,6 @@ using FullStack.API.Data;
 using FullStack.API.Models;
 using FullStack.API.Services.Contract;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
 
 namespace FullStack.API.Services.Implementation
 {
